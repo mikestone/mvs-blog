@@ -1,0 +1,9 @@
+<h1><%= @post.title %></h1>
+
+<small>by <%= @post.author %></small>
+
+<p>
+  <%= @post.content %>
+</p>
+
+<small>Posted at <%= @post.posted_at.strftime "%m-%d-%Y" %></small>
